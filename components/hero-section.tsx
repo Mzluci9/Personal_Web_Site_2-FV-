@@ -46,7 +46,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-5xl md:text-7xl font-bold mb-6"
         >
-          <span className="bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">JOHN DOE</span>
+          <span className="bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">Michael Zewdu</span>
         </motion.h1>
 
         <motion.p
@@ -55,7 +55,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-xl md:text-2xl text-gray-300 dark:text-gray-300 light:text-gray-600 mb-8 max-w-3xl mx-auto"
         >
-          Full-Stack Developer & Creative Technologist
+          Creative 
         </motion.p>
 
         <motion.p
@@ -64,8 +64,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-lg text-gray-400 dark:text-gray-400 light:text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed"
         >
-          Crafting digital experiences with cutting-edge technology. Passionate about creating innovative solutions that
-          push the boundaries of what's possible.
+          Transforming data into insights, bridging technology and business strategy, while building the future of financial technology in Ethiopia.
         </motion.p>
 
         <motion.div

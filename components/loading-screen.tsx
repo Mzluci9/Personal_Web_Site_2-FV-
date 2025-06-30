@@ -23,7 +23,7 @@ export default function LoadingScreen() {
           }}
           className="text-6xl font-bold bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent mb-4"
         >
-          PORTFOLIO
+          MZ
         </motion.div>
         <motion.div
           animate={{ rotate: 360 }}
