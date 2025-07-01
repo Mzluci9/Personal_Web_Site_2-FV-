@@ -190,7 +190,7 @@ export default function ResumeSection() {
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">My professional journey and expertise</p>
           <motion.a
-            href="/resume.pdf"
+            href="/Michael Zewdu Updated CV.pdf"
             download="public/Michael Zewdu Updated CV.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
