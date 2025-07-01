@@ -191,7 +191,7 @@ export default function ResumeSection() {
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">My professional journey and expertise</p>
           <motion.a
             href="/resume.pdf"
-            download="John_Doe_Resume.pdf"
+            download="public/Michael Zewdu Updated CV.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-red-500 to-pink-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-red-500/25 transition-shadow"
