@@ -6,11 +6,7 @@ import { GitBranch, Users, MessageSquare, Lightbulb } from "lucide-react"
 import { FaCode } from 'react-icons/fa';
 import { SiHtml5, SiCss3, SiJavascript, SiDatabricks } from 'react-icons/si';
 import { MdHandshake } from 'react-icons/md';
-
-// import { Users, Lightbulb } from 'react-icons/feather';
 import { FiClock, FiRepeat, FiSettings } from 'react-icons/fi';
-
-
 
 // Custom SVG icons for technologies not in Lucide
 const ReactIcon = () => (
