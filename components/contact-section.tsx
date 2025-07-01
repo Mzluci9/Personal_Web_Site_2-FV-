@@ -156,7 +156,7 @@ export default function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-gray-300">
                   <Mail className="w-5 h-5 text-red-500" />
-                  <span>john@example.com</span>
+                  <span>michaelzewdu00@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-300">
                   <div className="w-5 h-5 flex items-center justify-center">
