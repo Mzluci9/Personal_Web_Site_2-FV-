@@ -8,6 +8,7 @@ import { SiHtml5, SiCss3, SiJavascript, SiDatabricks } from 'react-icons/si';
 import { MdHandshake } from 'react-icons/md';
 import { FiClock, FiRepeat, FiSettings } from 'react-icons/fi';
 
+
 // Custom SVG icons for technologies not in Lucide
 const ReactIcon = () => (
   <svg viewBox="0 0 24 24" className="w-5 h-5" fill="currentColor">
@@ -140,7 +141,22 @@ const education = [
     description: "Bussiness majeor .",
   },
 ]
-
+const certifications = [
+  {
+    title: "Certified Scrum Master",
+    issuer: "Scrum Alliance",
+    date: "2023",
+    licenseNumber: "12345",
+    description: "Agile project management certification.",
+  },
+  {
+    title: "AWS Certified Solutions Architect",
+    issuer: "Amazon Web Services",
+    date: "2024",
+    licenseNumber: "67890",
+    description: "Cloud architecture certification.",
+  },
+];
 const skills = [
   {
     category: "Tools & Technologies",
@@ -165,11 +181,11 @@ const skills = [
       { name: "Problem Solving", icon: Lightbulb },
       { name: "Communication", icon: MessageSquare },
       { name: "Mentoring", icon: Users },
-      { name: "Time Management", icon: FiClock },        // clock/time
-      { name: "Adaptability & Responsibility", icon: FiRepeat },  // repeat/adjustment
-      { name: "Sales and Marketing", icon: Briefcase },          // briefcase/business
-      { name: "Team Work & Team Leadership", icon: MdHandshake }, // handshake/teamwork
-      { name: "Operational Management", icon: FiSettings },       // gear/settings for management
+      { name: "Time Management", icon: FiClock },       
+      { name: "Adaptability & Responsibility", icon: FiRepeat },  
+      { name: "Sales and Marketing", icon: Briefcase },          
+      { name: "Team Work & Team Leadership", icon: MdHandshake }, 
+      { name: "Operational Management", icon: FiSettings },       
     ],
   },
 ]
@@ -250,6 +266,8 @@ export default function ResumeSection() {
             viewport={{ once: true }}
             className="space-y-12"
           >
+
+
             <div>
               <div className="flex items-center gap-3 mb-8">
                 <GraduationCap className="w-6 h-6 text-red-500" />
@@ -272,7 +290,29 @@ export default function ResumeSection() {
                 </motion.div>
               ))}
             </div>
+            <div>
+            <div className="flex items-center gap-3 mb-8">
+              <Award className="w-6 h-6 text-red-500" />
+              <h3 className="text-2xl font-bold text-white">Certifications</h3>
+            </div>
 
+            {certifications.map((cert, index) => (
+              <motion.div
+                key={index}
+                initial={{ y: 30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-6 border border-gray-700 mb-4"
+              >
+                <h4 className="text-xl font-bold text-white mb-1">{cert.title}</h4>
+                <p className="text-red-400 font-medium mb-2">{cert.issuer}</p>
+                <p className="text-gray-400 text-sm mb-2">{cert.date}</p>
+                <p className="text-gray-300 mb-2">{cert.description}</p>
+                <p className="text-gray-400 text-xs">License No: {cert.licenseNumber}</p>
+              </motion.div>
+            ))}
+          </div>
             <div>
               <div className="flex items-center gap-3 mb-8">
                 <Award className="w-6 h-6 text-red-500" />
