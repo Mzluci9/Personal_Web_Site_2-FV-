@@ -85,11 +85,11 @@ export default function Navigation() {
                 )}
               </motion.button>
             ))}
-            <ThemeSwitcher />
+            {/* <ThemeSwitcher />
           </div>
 
           <div className="md:hidden flex items-center space-x-4">
-            <ThemeSwitcher />
+            <ThemeSwitcher /> */} 
           </div>
         </div>
       </div>
