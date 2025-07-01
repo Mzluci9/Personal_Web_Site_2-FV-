@@ -6,35 +6,43 @@ import { ExternalLink, Calendar, Clock } from "lucide-react"
 const blogPosts = [
   {
     id: 1,
-    title: "The Future of Web Development: Trends to Watch in 2024",
+    title: "Actual intelligence",
     excerpt:
-      "Exploring the latest trends and technologies shaping the future of web development, from AI integration to new frameworks.",
-    date: "2024-01-15",
+      "AI once meant Artificial Intelligence. Now it can stand for Actual Intelligence.",
+    date: "2024-06-13",
     readTime: "5 min read",
-    url: "https://medium.com/@example/future-web-dev",
-    tags: ["Web Development", "AI", "Trends"],
+    url: "https://medium.com/@michaelzewdu/actual-intelligence-890de2383811",
+    tags: ["Artificial Intelligence", "Trends"],
   },
   {
     id: 2,
-    title: "Building Scalable Applications with Next.js and TypeScript",
+    title: "Working with Oracles",
     excerpt:
-      "A comprehensive guide to creating robust, type-safe applications using Next.js and TypeScript best practices.",
-    date: "2024-01-08",
+      "The Joy of Constant Evolution.I had the opportunity of working in both Technology team and Business team in our company and both environments in there own way have thought me valuable lessons .....",
+    date: "2025-06-10",
     readTime: "8 min read",
-    url: "https://medium.com/@example/nextjs-typescript",
-    tags: ["Next.js", "TypeScript", "Tutorial"],
+    url: "https://medium.com/@michaelzewdu/working-with-oracles-10288169d7cc",
+    tags: ["Always Learning", "Adapting", "Evolving"],
   },
   {
     id: 3,
-    title: "The Art of Clean Code: Principles Every Developer Should Know",
-    excerpt: "Essential principles and practices for writing maintainable, readable code that stands the test of time.",
+    title: "The Smartest One in the Room Is No Longer Human",
+    excerpt: "Aglobal education shift is happening, and at the center of it is artificial intelligence. We’re not just talking about smart boards and chatbots. AI is now teaching....",
+    date: "2024-01-01",
+    readTime: "6 min read",
+    url: "https://michaelzewdu.medium.com/the-smartest-one-in-the-room-is-no-longer-human-7bc13722149b",
+    tags: ["Teachers vs Tech"],
+  },
+  {
+    id: 3,
+    title: "The Odyssey Plan",
+    excerpt: "Ever feel stuck in life ver feel stuck in life’s autopilot mode..Like you’re cruising down a familiar highway with no exits in sight? If that sounds familiar, let me introduce you to a simple but Powerful life hack......",
     date: "2024-01-01",
     readTime: "6 min read",
     url: "https://medium.com/@example/clean-code",
-    tags: ["Clean Code", "Best Practices", "Development"],
+    tags: ["Your Life’s GPS for Plot Twists"],
   },
 ]
-
 export default function WritingSection() {
   return (
     <section id="writing" className="py-20 px-6 relative">
@@ -50,7 +58,7 @@ export default function WritingSection() {
             <span className="bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">WRITING</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Thoughts, tutorials, and insights from my development journey
+            Thoughts, insights,Ideas and whatever sparked my curiosity I wrote about it.
           </p>
         </motion.div>
 
@@ -116,7 +124,7 @@ export default function WritingSection() {
           className="text-center mt-12"
         >
           <motion.a
-            href="https://medium.com/@example"
+            href="https://michaelzewdu.medium.com/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

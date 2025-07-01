@@ -3,6 +3,14 @@
 import { motion } from "framer-motion"
 import { Download, Briefcase, GraduationCap, Award } from "lucide-react"
 import { GitBranch, Users, MessageSquare, Lightbulb } from "lucide-react"
+import { FaCode } from 'react-icons/fa';
+import { SiHtml5, SiCss3, SiJavascript, SiDatabricks } from 'react-icons/si';
+import { MdHandshake } from 'react-icons/md';
+
+// import { Users, Lightbulb } from 'react-icons/feather';
+import { FiClock, FiRepeat, FiSettings } from 'react-icons/fi';
+
+
 
 // Custom SVG icons for technologies not in Lucide
 const ReactIcon = () => (
@@ -91,8 +99,8 @@ const FigmaIcon = () => (
 
 const experiences = [
   {
-    title: "Senior Full-Stack Developer",
-    company: "Tech Innovations Inc.",
+    title: "Stack Developer",
+    company: "Tech Innovations",
     period: "2022 - Present",
     description:
       "Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting solutions for enterprise clients.",
@@ -126,42 +134,28 @@ const experiences = [
 
 const education = [
   {
-    degree: "Bachelor of Computer Science",
-    school: "University of Technology",
-    period: "2015 - 2019",
-    description: "Focused on software engineering, algorithms, and web technologies. Graduated with honors.",
+    degree: "Bachelor of Business Administration and information systems",
+    school: "Addis ababa ",
+    period: "2022 - Current",
+    description: "Bussiness majeor .",
   },
 ]
 
 const skills = [
   {
-    category: "Frontend",
+    category: "Tools & Technologies",
     items: [
       { name: "React", icon: ReactIcon },
-      { name: "Next.js", icon: NextJSIcon },
-      { name: "TypeScript", icon: TypeScriptIcon },
-      { name: "Tailwind CSS", icon: TailwindIcon },
-      { name: "Vue.js", icon: VueIcon },
-    ],
-  },
-  {
-    category: "Backend",
-    items: [
-      { name: "Node.js", icon: NodeIcon },
-      { name: "Python", icon: PythonIcon },
       { name: "PostgreSQL", icon: PostgreSQLIcon },
-      { name: "MongoDB", icon: MongoDBIcon },
-      { name: "GraphQL", icon: GraphQLIcon },
-    ],
-  },
-  {
-    category: "Tools",
-    items: [
-      { name: "Git", icon: GitBranch },
-      { name: "Docker", icon: DockerIcon },
-      { name: "AWS", icon: AWSIcon },
-      { name: "Vercel", icon: VercelIcon },
-      { name: "Figma", icon: FigmaIcon },
+      { name: "Python", icon: PythonIcon },
+      { name: "TypeScript", icon: TypeScriptIcon },
+      { name: "GitHub", icon: GitBranch },
+      { name: "Docker", icon: DockerIcon },{ name: "Figma", icon: FigmaIcon },
+      { name: "Tailwind CSS", icon: TailwindIcon },
+      { name: "VSCode", icon: FaCode },{ name: "HTML", icon: SiHtml5 },
+      { name: "CSS", icon: SiCss3 },
+      { name: "JavaScript", icon: SiJavascript },
+      { name: "Data Analysis & Visualization", icon: SiDatabricks },
     ],
   },
   {
@@ -171,6 +165,11 @@ const skills = [
       { name: "Problem Solving", icon: Lightbulb },
       { name: "Communication", icon: MessageSquare },
       { name: "Mentoring", icon: Users },
+      { name: "Time Management", icon: FiClock },        // clock/time
+      { name: "Adaptability & Responsibility", icon: FiRepeat },  // repeat/adjustment
+      { name: "Sales and Marketing", icon: Briefcase },          // briefcase/business
+      { name: "Team Work & Team Leadership", icon: MdHandshake }, // handshake/teamwork
+      { name: "Operational Management", icon: FiSettings },       // gear/settings for management
     ],
   },
 ]
