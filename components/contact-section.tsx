@@ -49,10 +49,10 @@ export default function ContactSection() {
   }
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/example", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/example", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Mzluci9", label: "GitHub" },
+    { icon: Linkedin, href: "www.linkedin.com/in/michael-zewdu", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com/example", label: "Twitter" },
-    { icon: Mail, href: "mailto:john@example.com", label: "Email" },
+    { icon: Mail, href: "michaelzewdu00@gmail.com", label: "Email" },
   ]
 
   return (
