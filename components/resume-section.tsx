@@ -99,17 +99,17 @@ const FigmaIcon = () => (
 
 const experiences = [
   {
-    title: "Stack Developer",
-    company: "Tech Innovations",
-    period: "2022 - Present",
-    description:
-      "Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting solutions for enterprise clients.",
-    achievements: [
-      "Increased application performance by 40%",
-      "Led team of 5 developers",
-      "Implemented CI/CD pipelines",
-    ],
-  },
+  title: "General Services / Sales Officer / Case Executive",
+  company: "Tsion Industrial Engineering and Metal Work Enterprise",
+  location: "Addis Ababa, Ethiopia",
+  period: "03/2022 – 07/2024",
+  description: "Supervised workshop operations, managed procurement, and analyzed machinery performance data to optimize productivity. Acted as Case Executive handling operational tasks, revenue matters, and partner communications. Supported IT troubleshooting and provided skilled driving for company logistics.",
+  achievements: [
+    "Improved operational efficiency across workshop and sales teams",
+    "Streamlined procurement process to reduce delays",
+    "Facilitated effective communication between departments"
+  ],
+},
   {
     title: "Frontend Developer",
     company: "Digital Solutions Ltd.",
