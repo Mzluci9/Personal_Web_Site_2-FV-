@@ -110,26 +110,30 @@ const experiences = [
     "Facilitated effective communication between departments"
   ],
 },
-  {
-    title: "Frontend Developer",
-    company: "Digital Solutions Ltd.",
-    period: "2020 - 2022",
-    description:
-      "Developed responsive web applications and collaborated with design teams to create exceptional user experiences using modern frontend technologies.",
-    achievements: [
-      "Built 15+ production applications",
-      "Improved user engagement by 60%",
-      "Mentored 3 junior developers",
-    ],
-  },
-  {
-    title: "Junior Developer",
-    company: "StartUp Ventures",
-    period: "2019 - 2020",
-    description:
-      "Started my professional journey building web applications and learning industry best practices in an agile environment.",
-    achievements: ["Contributed to 10+ projects", "Learned full-stack development", "Implemented responsive designs"],
-  },
+{
+  title: "Platform Manager",
+  company: "Kifiya Financial Technology",
+  period: "03/2025 – Present",
+  description: "Oversee platform stability, monitor performance, and lead updates. Manage onboarding and support for financial partners to optimize collaboration. Analyze data trends to improve service delivery. Ensure compliance with regulations and mitigate security risks.",
+  achievements: [
+    "Maintained 99.9% platform uptime through proactive monitoring and updates",
+    "Strengthened partner relationships, increasing partner satisfaction and engagement",
+    "Implemented data-driven improvements enhancing platform efficiency",
+    "Enforced compliance standards, reducing security incidents"
+  ],
+},
+ {
+  title: "Data Sourcing Specialist",
+  company: "Kifiya Financial Technology",
+  location: "Addis Ababa, Ethiopia",
+  period: "07/2024 – 03/2025",
+  description: "Led multi-sector data collection efforts in Addis Ababa, including retail market surveys and psychometric assessments. Transcribed Amharic voice data for AI model training and managed banking and agricultural datasets to support data-driven decision-making.",
+  achievements: [
+    "Enhanced market insights through targeted data collection with mini and Suq markets",
+    "Supported AI model development by transcribing and encoding voice data",
+    "Applied Python-based statistical analysis to generate actionable business insights"
+  ],
+},
 ]
 
 const education = [
