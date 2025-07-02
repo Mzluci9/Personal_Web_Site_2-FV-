@@ -8,15 +8,15 @@ import Image from "next/image"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce solution built with Next.js and Stripe",
-    image: "/placeholder.svg?height=300&width=400",
-    tags: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"],
+    title: "Insurance Risk Analytics & Predictive Modeling",
+    description: "ML model to predict insurance premiums and claims using cleaned data and feature engineering.",
+    image: "/predictive modeling IMG.png?height=300&width=400",
+    tags: ["Python", "Jupyter Notebook", "Pandas", "VS Code"],
     longDescription:
-      "A comprehensive e-commerce platform featuring user authentication, product management, shopping cart functionality, and secure payment processing. Built with modern web technologies for optimal performance and user experience.",
-    features: ["User Authentication", "Product Catalog", "Shopping Cart", "Payment Integration", "Admin Dashboard"],
+      "Focuses on analyzing insurance data to identify key risk factors and predict future outcomes using machine learning models. The primary objective is to support data-driven decision-making in underwriting, premium pricing, and claim management.",
+    features: ["Exploratory Data Analysis", "Feature engineering", "Data cleaning and preprocessing", "Visualizations"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example",
+    githubUrl: "https://github.com/Mzluci9/-Insurance_Risk-_Analytics_-_Predictive_Modeling",
   },
   {
     id: 2,
