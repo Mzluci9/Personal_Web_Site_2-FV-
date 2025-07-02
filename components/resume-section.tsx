@@ -143,18 +143,19 @@ const education = [
 ]
 const certifications = [
   {
-    title: "Certified Scrum Master",
-    issuer: "Scrum Alliance",
-    date: "2023",
+    title: "Python Data Structures ",
+    issuer: "University of Michigan (via Coursera)",
+    date: "01/05/2025",
+    // Verify at:https://coursera.org/verify/PS8ZVOSQ0FKW
     licenseNumber: "12345",
-    description: "Agile project management certification.",
+    description: "Master core Python data structures lists, tuples, dictionaries, and sets to write clean, efficient, and powerful code.",
   },
   {
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    date: "2024",
-    licenseNumber: "67890",
-    description: "Cloud architecture certification.",
+    title: "Programming Fundamentals (HTML/CSS/JS) ",
+    issuer: " Udacity",
+    date: "15/04/2025",
+    licenseNumber: "https://www.udacity.com/certificate/e/6282e782-f0e7-11ef-a4de-33022a7e5982",
+    description: " Comprehensive program covering core programming fundamentals, including web development basics with HTML and CSS, and programming logic using JavaScript",
   },
 ];
 const skills = [
@@ -310,6 +311,7 @@ export default function ResumeSection() {
                 <p className="text-gray-400 text-sm mb-2">{cert.date}</p>
                 <p className="text-gray-300 mb-2">{cert.description}</p>
                 <p className="text-gray-400 text-xs">License No: {cert.licenseNumber}</p>
+                {/* <p className="text-gray-400 text-xs">Verify at : {cert.Verifyat }</p> */}
               </motion.div>
             ))}
           </div>
