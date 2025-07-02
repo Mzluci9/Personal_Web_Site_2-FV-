@@ -83,8 +83,8 @@ export default function HeroSection() {
           </motion.button>
 
           <motion.a
-            href="/resume.pdf" // You'll need to add your actual resume PDF to the public folder
-            download="John_Doe_Resume.pdf"
+            href="/Michael Zewdu Updated CV.pdf" // You'll need to add your actual resume PDF to the public folder
+            download="Michael_Zewdu_Resume.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 border border-gray-600 dark:border-gray-600 light:border-gray-400 text-gray-300 dark:text-gray-300 light:text-gray-600 font-semibold rounded-lg hover:border-red-500 hover:text-red-500 transition-colors"
