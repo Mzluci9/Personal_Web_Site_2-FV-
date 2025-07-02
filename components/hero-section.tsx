@@ -21,9 +21,9 @@ export default function HeroSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mb-8"
         >
-          <div className="relative w-32 h-32 mx-auto mb-8">
+          <div className="relative w-48 h-48 mx-auto mb-8">
             <Image
-              src="/placeholder.svg?height=128&width=128"
+              src="/MK.PNG?height=128&width=128"
               alt="Profile"
               fill
               className="rounded-full border-4 border-red-500 object-cover"
