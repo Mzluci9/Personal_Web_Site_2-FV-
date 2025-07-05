@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 
 export default function HeroSection() {
   const [currentWord, setCurrentWord] = useState(0)
-  const words = ["Creative", "Innovative", "Dynamic", "Inspired"]
+  const words = ["Creative","Platform Manager", "Future Data Scientist", "Certified Personal Trainer", "10 Academy Fellow"]
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -22,7 +22,6 @@ export default function HeroSection() {
       element.scrollIntoView({ behavior: "smooth" })
     }
   }
-
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center px-6">
       <div className="container mx-auto text-center">
