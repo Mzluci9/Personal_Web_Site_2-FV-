@@ -11,7 +11,7 @@ const projects = [
     title: "Insurance Risk Analytics & Predictive Modeling",
     description: "ML model to predict insurance premiums and claims using cleaned data and feature engineering.",
     image: "/predictive modeling IMG.png?height=300&width=400",
-    tags: ["Python", "Jupyter Notebook", "Pandas", "VS Code"],
+    tags: ["Python","OpenAI","Jupyter Notebook","Github", "Pandas", "VS Code"],
     longDescription:
       "Focuses on analyzing insurance data to identify key risk factors and predict future outcomes using machine learning models. The primary objective is to support data-driven decision-making in underwriting, premium pricing, and claim management.",
     features: ["Exploratory Data Analysis", "Feature engineering", "Data cleaning and preprocessing", "Visualizations"],
@@ -23,7 +23,7 @@ const projects = [
     title: "Credit Risk Probability Model for Alternative Data",
     description: "A machine learning model predicting credit risk using alternative data. It ensures regulatory compliance with explainable methods aligned to Basel II, creates proxy variables for missing defaults, and uses feature engineering to improve borrower assessment.",
     image: "/Credit Risk Probability Model for Alternative Data.png?height=300&width=400",
-    tags: ["Python", "OpenAI", "Jupyter Notebook", "Pandas", "Scikit-learn",],
+    tags: ["Python Programming","Github","OpenAI", "Jupyter Notebook", "Pandas", "Scikit-learn",],
     longDescription:
       "This machine learning model uses alternative data to improve credit risk prediction and borrower assessment, focusing on regulatory compliance with Basel II’s emphasis on transparency and interpretability. It employs explainable models like Logistic Regression with Weight of Evidence encoding to build stakeholder trust.Since the dataset lacks a direct default label, the model creates a proxy variable based on customer behavior (e.g., RFM metrics), carefully managing risks if the proxy doesn’t perfectly reflect default. It balances simple, interpretable models and complex, high-performing algorithms like Gradient Boosting, using tools such as SHAP to maintain explainability.The feature engineering pipeline aggregates transaction data, extracts time features, encodes categorical variables, imputes missing values, and standardizes numerical features. Processed data is saved for streamlined training and evaluation, delivering a compliant and effective credit risk scoring solution.",
     features: ["Real-time Messaging", "AI Integration", "File Sharing", "Group Chats", "Message History"],
@@ -35,7 +35,7 @@ const projects = [
     title: "Amharic E-Commerce Scraper",
     description: "A data-driven analysis of user reviews from three Ethiopian banking apps to uncover satisfaction trends, pain points, and feature demands using web scraping, sentiment analysis, and NLP.",
     image: "/Amharic E-Commerce Scraper IMG.png?height=300&width=400",
-    tags: ["Jupyter Notebook", "Python", "Pandas", "VS Code", "NLP", "Web Scraping"],
+    tags: ["Web Scraping","Jupyter Notebook", "Python", "Pandas", "VS Code","Modular Coding", "NLP","Github"],
     longDescription:
       "This project analyzes customer feedback from the Google Play Store for three major Ethiopian banks CBE, BOA and Dashen Bank to identify what users love and what frustrates them. Using web scraping and natural language processing (NLP). I collected and analyzed over 1,200 reviews to extract sentiment, detect recurring themes (like bugs or login issues) and uncover feature requests. The insights are visualized and stored in a structured database, offering actionable recommendations for banks to enhance mobile app performance, user satisfaction, and retention.",
     features: [
@@ -50,21 +50,22 @@ const projects = [
   },
   {
     id: 4,
-    title: "Portfolio Dashboard",
-    description: "Analytics dashboard for tracking portfolio performance",
-    image: "/placeholder.svg?height=300&width=400",
-    tags: ["Vue.js", "D3.js", "Python", "FastAPI"],
+    title: "Solar Data Discovery",
+    description: "Exploration of solar energy potential across Benin, Sierra Leone and Togo. Using Python, EDA, and Streamlit.The project delivers insights that support strategic solar farm investment decisions.",
+    image: "/Solar Data Discovery.png?height=300&width=400",
+    tags: ["Matplotlib", "Jupyter Notebook", "Python", "GitHub"],
     longDescription:
-      "A comprehensive analytics dashboard for portfolio management with real-time data visualization, performance tracking, and automated reporting features.",
+      "A cross-country solar data discovery project designed to identify high-potential regions for solar farm installations in West Africa. By analyzing real-world environmental data from Benin, Sierra Leone and Togo, the project applies Python Programing, Exploratory Data Analysis (EDA), and Streamlit dashboards to guide sustainable energy investment strategies for MoonLight Energy Solutions. This challenge served as a gateway to my AI mastery journey, covering key skills in Machine Learning, Financial Analytics, and Data Engineering.",
+
     features: [
-      "Real-time Analytics",
-      "Data Visualization",
-      "Performance Tracking",
-      "Automated Reports",
-      "Custom Alerts",
+      "Cross-Country Data Analysis",
+      "Environmental Metrics Integration",
+      "Python-Powered EDA",
+      "Strategy Recommendation",
+      "Cleaning & Maintenance Signal Analysis",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example",
+    liveUrl: "https://www.imdb.com/title/tt1307057/",
+    githubUrl: "https://github.com/Mzluci9/Solar-Challenge-week0",
   },
   {
     id: 5,
