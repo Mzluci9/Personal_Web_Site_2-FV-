@@ -197,7 +197,9 @@ export default function ContactSection() {
         viewport={{ once: true }}
         className="mt-20 pt-8 border-t border-gray-800 text-center"
       >
-        <p className="text-gray-400">© {new Date().getFullYear()} John Doe. Built with Next.js and Tailwind CSS.</p>
+        <p className="text-gray-400">© {new Date().getFullYear()} Michael Zewdu All rights reserved.
+          <p>Data Scientist & Analyst | Machine Learning | Business Intelligence</p>
+        </p>
       </motion.footer>
     </section>
   )
