@@ -51,7 +51,7 @@ export default function ContactSection() {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Mzluci9", label: "GitHub" },
     { icon: Linkedin, href: "www.linkedin.com/in/michael-zewdu", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/example", label: "Twitter" },
+    { icon: Twitter, href: "https://x.com/MichaelZew88887", label: "Twitter" },
     { icon: Mail, href: "michaelzewdu00@gmail.com", label: "Email" },
   ]
 
@@ -107,7 +107,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:border-red-500 focus:outline-none transition-colors"
-                  placeholder="your.email@example.com"
+                  placeholder="email@example.com"
                 />
               </div>
 
@@ -123,7 +123,7 @@ export default function ContactSection() {
                   required
                   rows={6}
                   className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:border-red-500 focus:outline-none transition-colors resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Text me Anything ..."
                 />
               </div>
 

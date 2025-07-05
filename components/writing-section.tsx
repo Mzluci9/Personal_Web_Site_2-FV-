@@ -115,26 +115,35 @@ export default function WritingSection() {
             </motion.article>
           ))}
         </div>
-
-        <motion.div
-          initial={{ y: 30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="text-center mt-12"
-        >
-          <motion.a
-            href="https://michaelzewdu.medium.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-2 px-8 py-3 border border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-red-500 hover:text-red-500 transition-colors"
-          >
-            View All Articles
-            <ExternalLink className="w-4 h-4" />
-          </motion.a>
-        </motion.div>
+      <motion.div
+  initial={{ y: 30, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+  viewport={{ once: true }}
+  className="text-center mt-12"
+>
+  <motion.a
+    href="https://michaelzewdu.medium.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ 
+      scale: 1.1, 
+      rotate: 2, 
+      boxShadow: "0 0 20px rgba(239, 68, 68, 0.5)", 
+      transition: { duration: 0.3, ease: "easeInOut" } 
+    }}
+    whileTap={{ scale: 0.95, rotate: -2 }}
+    className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-red-600 to-pink-600 text-white font-semibold rounded-lg border border-red-500/50 hover:border-red-400 shadow-lg hover:shadow-red-500/30 transition-all duration-300"
+  >
+    <motion.span
+      animate={{ rotate: [0, 10, -10, 0] }}
+      transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+    >
+      <ExternalLink className="w-5 h-5" />
+    </motion.span>
+    View All Articles
+  </motion.a>
+</motion.div>
       </div>
     </section>
   )

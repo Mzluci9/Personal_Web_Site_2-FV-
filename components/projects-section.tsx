@@ -164,6 +164,35 @@ export default function ProjectsSection() {
             </motion.div>
           ))}
         </div>
+        <motion.div
+  initial={{ y: 30, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
+  viewport={{ once: true }}
+  className="text-center mt-12"
+>
+  <motion.a
+    href="https://github.com/Mzluci9"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ 
+      scale: 1.1, 
+      rotate: 2, 
+      boxShadow: "0 0 20px rgba(239, 68, 68, 0.5)", 
+      transition: { duration: 0.3, ease: "easeInOut" } 
+    }}
+    whileTap={{ scale: 0.95, rotate: -2 }}
+    className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-red-600 to-pink-600 text-white font-semibold rounded-lg border border-red-500/50 hover:border-red-400 shadow-lg hover:shadow-red-500/30 transition-all duration-300"
+  >
+    <motion.span
+      animate={{ rotate: [0, 10, -10, 0] }}
+      transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+    >
+      <Github className="w-5 h-5" />
+    </motion.span>
+    View My GitHub
+  </motion.a>
+</motion.div>
       </div>
 
       <AnimatePresence>
@@ -256,7 +285,8 @@ export default function ProjectsSection() {
             </motion.div>
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> 
     </section>
   )
 }
+
