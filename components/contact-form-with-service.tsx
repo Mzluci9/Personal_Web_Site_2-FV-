@@ -97,7 +97,7 @@ export default function ContactFormWithService() {
           rows={6}
           disabled={status === "loading"}
           className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:border-red-500 focus:outline-none transition-colors resize-none disabled:opacity-50"
-          placeholder="Tell me about your project..."
+          placeholder="Talk to me Yall😃...."
         />
       </div>
 
