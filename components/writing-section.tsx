@@ -134,16 +134,16 @@ export default function WritingSection() {
     }}
     whileTap={{ scale: 0.95, rotate: -2 }}
     className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-red-600 to-pink-600 text-white font-semibold rounded-lg border border-red-500/50 hover:border-red-400 shadow-lg hover:shadow-red-500/30 transition-all duration-300"
-  >
+    > 
     <motion.span
       animate={{ rotate: [0, 10, -10, 0] }}
       transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-    >
+      >
       <ExternalLink className="w-5 h-5" />
     </motion.span>
     View All Articles
-  </motion.a>
-</motion.div>
+   </motion.a>
+  </motion.div>
       </div>
     </section>
   )
