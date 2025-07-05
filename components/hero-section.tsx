@@ -23,7 +23,7 @@ export default function HeroSection() {
         >
           <div className="relative w-48 h-48 mx-auto mb-8">
             <Image
-              src="/MK.PNG?height=128&width=128"
+              src="/MK2.JPG?height=128&width=128"
               alt="Profile"
               fill
               className="rounded-full border-4 border-red-500 object-cover"

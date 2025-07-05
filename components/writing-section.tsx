@@ -55,7 +55,7 @@ export default function WritingSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">WRITING</span>
+            <span className="bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">Blogs</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Thoughts, insights,Ideas and whatever sparked my curiosity I wrote about it.
